@@ -1,55 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
+
     android:layout_margin="10dp"
     android:padding="10dp"
     android:orientation="vertical"
-    android:background="#f3d4fa"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity10">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/customer"
-        app:cornerRadius="8dp"
+        android:text="@string/please_select"
+        android:id="@+id/select"
         android:padding="20dp"
-        android:background="#ea00ff"
-        android:onClick="btncustomer"
-        android:layout_margin="20dp"
-        android:id="@+id/customer"
-
-
+        android:layout_margin="30dp"
+        android:gravity="center"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Owner"
-        android:background="#ea00ff"
-        app:cornerRadius="8dp"
-        android:layout_margin="20dp"
-        android:onClick="btnOwner"
-        android:padding="20dp"
-
-
+        android:textSize="30dp"
+        android:text="Sign Up"
+        android:onClick="btnup"
+        android:layout_gravity="center"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Employee"
-        android:background="#ea00ff"
-        app:cornerRadius="8dp"
-        android:layout_margin="20dp"
-        android:onClick="btnEmployee"
-        android:padding="20dp"
-
+        android:textSize="30dp"
+        android:onClick="btnin"
+        android:text="Sign In"
+        android:layout_gravity="center"
 
         />
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>

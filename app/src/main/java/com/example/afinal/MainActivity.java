@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
         public void btncustomer(View view)
         {
-            Intent in = new Intent(this,Main2Activity.class);
+            Intent in = new Intent(this,MainActivity10.class);
             startActivity(in);
 
         }
@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(in);
         }
 
+    public void btnEmployee(View view) {
+        Intent in = new Intent(this,MainActivity9.class);
+        startActivity(in);
+    }
 }

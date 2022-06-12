@@ -3,6 +3,19 @@
     <string name="customer">customer</string>
     <string name="Owner">Owner</string>
     <string name="menu">menu</string>
+    <string name="Employee">Employee</string>
+    <string name="select">select</string>
+    <string name="please_select">Please Select</string>
+    <string name="please_fill_the_form_to_create_an_account">Please Fill The form to Create an account</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">enter last name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="email">email</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="submit">Submit</string>
 
     <string-array name="menulist">
         <item> "Drinks" </item>
