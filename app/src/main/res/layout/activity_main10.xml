@@ -10,7 +10,7 @@
     android:layout_margin="10dp"
     android:padding="10dp"
     android:orientation="vertical"
-    tools:context=".MainActivity10">
+    tools:context=".Customer">
 
     <TextView
         android:layout_width="match_parent"

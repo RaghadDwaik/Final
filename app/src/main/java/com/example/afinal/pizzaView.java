@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class MainActivity3 extends AppCompatActivity {
+public class pizzaView extends AppCompatActivity {
 
 
 

@@ -12,7 +12,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 
-public class MainActivity11 extends AppCompatActivity {
+public class SignIn extends AppCompatActivity {
 
     private EditText f,p;
     private String name ,password;
@@ -36,12 +36,12 @@ public class MainActivity11 extends AppCompatActivity {
                 @Override
                 public void onResponse(String response) {
                     if (response.equals("success")) {
-                        Intent in = new Intent(MainActivity11.this,MainActivity13.class);
+                        Intent in = new Intent(SignIn.this,listviewMenu.class);
                         startActivity(in);
                         finish();
                 }
                     else {
-                        Toast.makeText(MainActivity11.this,"invalid password or name",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignIn.this,"invalid password or name",Toast.LENGTH_SHORT).show();
 
                     }
             }

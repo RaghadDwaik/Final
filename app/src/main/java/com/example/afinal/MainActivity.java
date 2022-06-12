@@ -16,18 +16,18 @@ public class MainActivity extends AppCompatActivity {
     }
         public void btncustomer(View view)
         {
-            Intent in = new Intent(this,MainActivity10.class);
+            Intent in = new Intent(this, Customer.class);
             startActivity(in);
 
         }
 
         public void btnOwner(View view) {
-            Intent in = new Intent(this,MainActivity4.class);
+            Intent in = new Intent(this, Owner.class);
             startActivity(in);
         }
 
     public void btnEmployee(View view) {
-        Intent in = new Intent(this,MainActivity9.class);
+        Intent in = new Intent(this, Employee.class);
         startActivity(in);
     }
 }

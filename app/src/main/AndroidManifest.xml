@@ -15,37 +15,37 @@
             android:name=".MainActivity13"
             android:exported="false" />
         <activity
-            android:name=".MainActivity12"
+            android:name=".SignUp"
             android:exported="false" />
         <activity
-            android:name=".MainActivity11"
+            android:name=".SignIn"
             android:exported="false" />
         <activity
-            android:name=".MainActivity10"
+            android:name=".Customer"
             android:exported="false" />
         <activity
-            android:name=".MainActivity9"
+            android:name=".Employee"
             android:exported="false" />
         <activity
-            android:name=".MainActivity8"
+            android:name=".DrinksView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity7"
+            android:name=".DesertsView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity6"
+            android:name=".shawermaView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name=".BurgerView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".Owner"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".pizzaView"
             android:exported="false" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".listviewMenu"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

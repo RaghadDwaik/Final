@@ -18,7 +18,7 @@ import com.android.volley.Response.ErrorListener;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-public class MainActivity12 extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     private EditText first,last,phone,pass,email,address;
     private TextView fill,status;
