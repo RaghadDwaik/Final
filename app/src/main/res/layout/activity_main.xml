@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#f3d4fa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer"
+        app:cornerRadius="8dp"
+        android:padding="20dp"
+        android:background="#ea00ff"
+        android:onClick="btncustomer"
+        android:layout_margin="20dp"
+        android:id="@+id/customer"
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Owner"
+        android:background="#ea00ff"
+        app:cornerRadius="8dp"
+        android:layout_margin="20dp"
+        android:onClick="btnOwner"
+        android:padding="20dp"
+
+
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
